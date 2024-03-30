@@ -1,0 +1,47 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Colores-->
+    <!--colores defondo-->
+    <SolidColorBrush x:Key="BrushFondo">#ffffff</SolidColorBrush>
+    <Color x:Key="ColorFondo">#ffffff</Color>
+    <SolidColorBrush x:Key="BrushEncabezado">#DBE9F6</SolidColorBrush>
+    <Color x:Key="ColorEncabezado">#DBE9F6</Color>
+    <!--el fondo transparente llevara opasidad de 0.4-->
+    <Color x:Key="FondoTransparente">#7F253086</Color>
+
+    <!--colores de letras-->
+    <SolidColorBrush x:Key="LetraDesabilitado">#818879</SolidColorBrush>
+    <SolidColorBrush x:Key="LetraNormales">black</SolidColorBrush>
+    <SolidColorBrush x:Key="LetraBlancas">#ffffff</SolidColorBrush>
+    <SolidColorBrush x:Key="LetrasMoradas">#253086</SolidColorBrush>
+
+    <!--colores Botones-->
+    <SolidColorBrush x:Key="BotonAzul">#2b3386</SolidColorBrush>
+    <SolidColorBrush x:Key="BotonNaranja">#FFFF9900</SolidColorBrush>
+    <SolidColorBrush x:Key="BotonVerde">#FF94B03C</SolidColorBrush>
+    <SolidColorBrush x:Key="BotonRojo">#FFAD3435</SolidColorBrush>
+
+    <!--colores Botones-->
+    <SolidColorBrush x:Key="BotonAzulSelect">#FF69AAD8</SolidColorBrush>
+    <SolidColorBrush x:Key="BotonNaranjaSelect">#FFFFBB55</SolidColorBrush>
+    <SolidColorBrush x:Key="BotonVerdeSelect">#FFC0DC69</SolidColorBrush>
+    <SolidColorBrush x:Key="BotonRojoSelect">#FFEC696A</SolidColorBrush>
+
+    <!--Borde de los botones -->
+    <Style x:Key="BordeBotones" TargetType="Border">
+        <Setter Property="CornerRadius" Value="3"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="BorderBrush" Value="#000"/>
+    </Style>
+    <!--Borde del panel -->
+    <Style x:Key="BordePanel" TargetType="Border">
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="BorderThickness" Value="0.5"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="BorderBrush" Value="#000"/>
+    </Style>
+
+
+</ResourceDictionary>

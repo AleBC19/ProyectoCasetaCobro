@@ -1,0 +1,125 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--letras-->
+    <!--mensaje de la barra de tareas-->
+    <Style x:Key="barraLabel" TargetType="Label">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontSize" Value="12"/>
+    </Style>
+
+    <!--mensaje de los botones de cajas letra grande-->
+    <Style x:Key="bontonLabel" TargetType="Label">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Padding" Value="5,0,5,0"/>
+    </Style>
+
+    <!--mensaje de LOS BOTONES letra pequeña Caja-->
+    <Style x:Key="bontonLabel2" TargetType="Label">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="white"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontSize" Value="10"/>
+        <Setter Property="Padding" Value="0,0,0,0"/>
+    </Style>
+
+    <!--Tipo de letra de entrada para los datos label para la etiquetas previas a la entrada-->
+    <Style x:Key="LabeTexBox" TargetType="Label">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="Margin" Value="5"/>
+    </Style>
+
+    <!--Tipo de letra de entrada para los datos label para la etiquetas previas a la entrada gris-->
+    <Style x:Key="LabeTexBoxGris" TargetType="Label">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="#FF585555"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Padding" Value="0"/>
+    </Style>
+
+    <!--Tipo de letra de entrada para los titulos morados -->
+    <Style x:Key="LabeMorado" TargetType="Label">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Foreground" Value="{StaticResource LetrasMoradas}"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontSize" Value="25"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="Margin" Value="25,25,0,25"/>
+    </Style>
+
+
+
+    <!--Tex Box-->
+    <!--Tipo de letra de entrada de los formularios para datros de entrada de los formularios-->
+    <Style x:Key="TexboxFormularios" TargetType="TextBox">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BrushEncabezado}"/>
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontSize" Value="15"/>
+    </Style>
+
+
+    <!--Stac Panel-->
+    <!--formato de panel para los botones que tienendoble linea-->
+    <!--stack horizontal-->
+    <Style x:Key="panelHrz" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Horizontal"/>
+        <Setter Property="MinWidth" Value="115"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="MinHeight" Value="30"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+    </Style>
+    <!--stack vertical-->
+    <Style x:Key="panelVtc" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Vertical"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+    </Style>
+
+
+    <!--imagenes-->
+    <!--da un tamaño predeteminado a los iconos de letras en los botones-->
+    <Style x:Key="iconos" TargetType="Image">
+        <Setter Property="Height" Value="12"/>
+        <Setter Property="Width" Value="12"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="Margin" Value="10,0,20,0"/>
+    </Style>
+
+
+</ResourceDictionary>
